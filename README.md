@@ -1,8 +1,14 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a memory card game from the Odin Project [Link](https://www.theodinproject.com/lessons/node-path-react-new-memory-card)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This game was created to continue practicing used react hooks.
+
+It grabs a list of gifs from [Giphy](https://developers.giphy.com/) and allows the client to try to click all giphs without reclicking the same gif.
+
+## Deploy
+
+npm run build -> creates a dist folder to easily depoly
+npm run dev -> creates a web instance of app
